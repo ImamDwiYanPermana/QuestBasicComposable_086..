@@ -93,6 +93,9 @@ fun BasicCOmpose(modifier: Modifier = Modifier){
             )
 
         )
+        Image(
+            painter = painterResource(id = R.drawable.imam23),contentDescription = null
+        )
     }
 }
 

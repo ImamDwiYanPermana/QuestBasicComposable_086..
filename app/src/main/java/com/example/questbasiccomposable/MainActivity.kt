@@ -71,7 +71,11 @@ fun BasicCOmpose(modifier: Modifier = Modifier){
            painter = painterResource(id = R.drawable.umyremove),contentDescription = null
        )
         Text(
-            text = "Nama"
+            text = "Nama",
+            style = TextStyle(
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Medium
+            ),
         )
     }
 }

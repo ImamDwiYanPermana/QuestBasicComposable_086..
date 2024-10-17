@@ -85,6 +85,10 @@ fun BasicCOmpose(modifier: Modifier = Modifier){
                 color = Color.Magenta
             )
         )
+        Text(
+            text = "20220140086"
+
+        )
     }
 }
 

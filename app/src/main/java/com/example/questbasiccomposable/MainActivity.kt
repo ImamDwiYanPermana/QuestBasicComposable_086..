@@ -13,7 +13,12 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.sp
 import com.example.questbasiccomposable.ui.theme.QuestBasicComposableTheme
 import org.intellij.lang.annotations.JdkConstants.HorizontalAlignment
 
@@ -24,8 +29,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             QuestBasicComposableTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    BasicCOmpose(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -38,10 +42,17 @@ class MainActivity : ComponentActivity() {
 fun BasicCOmpose(modifier: Modifier = Modifier){
     Column (
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center,
+        verticalArrangement = Arrangement.Top,
         modifier = modifier.fillMaxSize()
     ){
-
+        Text(
+            text = "Login",
+            style = TextStyle(
+                fontSize = 60.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
+)
     }
 }
 

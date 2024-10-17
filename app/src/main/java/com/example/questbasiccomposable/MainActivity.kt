@@ -86,7 +86,11 @@ fun BasicCOmpose(modifier: Modifier = Modifier){
             )
         )
         Text(
-            text = "20220140086"
+            text = "20220140086",
+            style = TextStyle(
+                fontSize = 50.sp,
+                fontWeight = FontWeight.Bold
+            )
 
         )
     }

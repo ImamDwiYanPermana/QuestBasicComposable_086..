@@ -70,6 +70,9 @@ fun BasicCOmpose(modifier: Modifier = Modifier){
        Image(
            painter = painterResource(id = R.drawable.umyremove),contentDescription = null
        )
+        Text(
+            text = "Nama"
+        )
     }
 }
 

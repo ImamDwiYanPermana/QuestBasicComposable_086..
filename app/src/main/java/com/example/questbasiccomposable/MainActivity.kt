@@ -78,7 +78,12 @@ fun BasicCOmpose(modifier: Modifier = Modifier){
             ),
         )
         Text(
-            text = "Imam Dwi Yan Permana"
+            text = "Imam Dwi Yan Permana",
+            style = TextStyle(
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Medium,
+                color = Color.Magenta
+            )
         )
     }
 }

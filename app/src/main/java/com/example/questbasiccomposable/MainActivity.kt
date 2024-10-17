@@ -77,6 +77,9 @@ fun BasicCOmpose(modifier: Modifier = Modifier){
                 fontWeight = FontWeight.Medium
             ),
         )
+        Text(
+            text = "Imam Dwi Yan Permana"
+        )
     }
 }
 

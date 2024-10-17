@@ -48,11 +48,14 @@ fun BasicCOmpose(modifier: Modifier = Modifier){
         Text(
             text = "Login",
             style = TextStyle(
-                fontSize = 60.sp,
+                fontSize = 50.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Black
+            ),
+        )
+        Text(
+            text = "Ini adalah Halaman Login"
             )
-)
     }
 }
 

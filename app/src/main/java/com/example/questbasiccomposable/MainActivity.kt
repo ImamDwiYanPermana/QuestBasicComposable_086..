@@ -51,24 +51,24 @@ fun BasicCOmpose(modifier: Modifier = Modifier){
         Text(
             text = "Login",
             style = TextStyle(
-                fontSize = 50.sp,
+                fontSize = 30.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Black
             ),
         )
         Text(
             text = "Ini adalah Halaman Login",
-            modifier = modifier.padding(bottom = 30.dp),
+            modifier = modifier.padding(bottom = 1.dp),
             style = TextStyle(
                 fontSize = 20.sp,
                 fontStyle = FontStyle.Italic,
                 color = Color.DarkGray,
                 fontWeight = FontWeight.Normal
             ),
-
         )
        Image(
-           painter = painterResource(id = R.drawable.umyremove),contentDescription = null
+           painter = painterResource(id = R.drawable.umyremove),contentDescription = null,
+           //modifier = modifier.padding(bottom = 10.dp),
        )
         Text(
             text = "Nama",
